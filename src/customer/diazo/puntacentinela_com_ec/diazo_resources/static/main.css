@@ -27,15 +27,18 @@ body #global-wrapper #content-wrapper{
     position:relative;
     margin-top:-127px;
 }
-.language-switcher{
-     margin: -40px 0 11px;
+#navigation .container{
+    height:116px;
 }
+
+.language-switcher{
+     top:62px;
+}
+
+
 @media screen and (max-width: 768px) {
-  #navigation{
-    margin-top:-57px;
-  }
   .language-switcher {
-    margin: 10px 0 11px;
+    top:0;
   }
 }
 .navbar-nav{

@@ -15,6 +15,9 @@ body #global-wrapper #content-wrapper{
 #header{
     border-top:10px solid #28569f;
 }
+#header .container{
+  padding:0;
+}
 #wrapper-inner #header .navbar{
     margin-top: 10px;
 }
@@ -22,17 +25,35 @@ body #global-wrapper #content-wrapper{
 /* Navigation */
 #navigation{
     position:relative;
-    top:-127px;
+    margin-top:-127px;
+}
+.language-switcher{
+     margin: -40px 0 11px;
+}
+@media screen and (max-width: 768px) {
+  #navigation{
+    margin-top:-57px;
+  }
+  .language-switcher {
+    margin: 10px 0 11px;
+  }
 }
 .navbar-nav{
     float:right;
-    padding-right: 55px;
+    padding-right: 65px;
 }
 
 #navigation .navmenu li a{
     padding: 10px 15px;
 }
-
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+      padding-right: 55px;
+    }
+    #navigation .navmenu li a{
+        padding:10px;
+    }
+}
 .header-normal #global-wrapper #wrapper-inner #navigation,
 .header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1,
 .header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu,

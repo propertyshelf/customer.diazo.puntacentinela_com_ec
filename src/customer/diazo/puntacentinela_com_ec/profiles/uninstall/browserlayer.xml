@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="customer.diazo.puntacentinela_com_ec"
+      interface="customer.diazo.puntacentinela_com_ec.interfaces.ICustomerDiazoPuntacentinelaComEcLayer"
+      remove="True"
+      />
+</layers>

@@ -8,11 +8,11 @@
   <!-- <rules css:if-content="#visual-portal-wrapper"> -->
 
     <!-- Include ps.diazo.vanilla as a base theme. -->
-    <!-- <xi:include href="/++theme++ps.diazo.vanilla/rules.xml"/> -->
+    <xi:include href="/++theme++ps.diazo.vanilla/rules.xml"/>
 
     <!-- <after css:theme-children="html head"> -->
       <!-- Add custom stylesheet. -->
-      <!-- <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.puntacentinela_com_ec/static/main.css" type="text/css" /> -->
+      <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.puntacentinela_com_ec/static/main.css" type="text/css" />
 
       <!-- Add custom JavaScript. -->
       <!-- <script src="{$portal_url}/++theme++customer.diazo.puntacentinela_com_ec/static/main.js"></script> -->

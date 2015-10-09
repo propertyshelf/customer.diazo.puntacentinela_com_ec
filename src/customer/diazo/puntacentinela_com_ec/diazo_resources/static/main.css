@@ -1,1 +1,113 @@
 /* Stylesheet for the diazo theme. */
+/* Webfont */
+body,
+body p,
+body a{
+    font-family: 'Roboto', Arial, sans-serif;
+    color:#000;
+    font-size: 15px;
+}
+body #global-wrapper #content-wrapper{
+    background-color: #dadada
+}
+
+/* Header styles */
+#header{
+    border-top:10px solid #28569f;
+}
+#wrapper-inner #header .navbar{
+    margin-top: 10px;
+}
+
+/* Navigation */
+#navigation{
+    position:relative;
+    top:-127px;
+}
+.navbar-nav{
+    float:right;
+    padding-right: 55px;
+}
+
+#navigation .navmenu li a{
+    padding: 10px 15px;
+}
+
+.header-normal #global-wrapper #wrapper-inner #navigation,
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1,
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu,
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li,
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a{
+    background-color: transparent !important;
+}
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li.selected,
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:hover,
+.header-light #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:focus{
+  background-color: #f4bb15 !important;
+  color:#fff !important;
+}
+
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a
+{
+    color:#28569f !important;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li.selected a
+{
+    color:#fff !important;
+}
+#navigation #id_nav1.navbar-collapse{
+    border: 0 none transparent;
+}
+
+/* Footer styles*/
+#footer-wrapper #footer-top,
+#footer-wrapper #footer-top #footer-top-inner{
+    background-color: #fff;
+}
+
+#footer-wrapper #colophone,
+#footer-wrapper #portal-footer{
+  background-color: #28569f;
+}
+#footer-wrapper #colophone .colophone-inner{
+    background-color: transparent;
+}
+#footer-wrapper #colophone .colophone-inner{
+    padding-top:16px;
+}
+#colophone,
+#colophone p,
+#colophone a{
+    font-size: 11px;
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+
+}
+#portal-footer{
+  padding:16px 0;
+  font-size: 16px;
+  color:#fff;
+  font-weight: 300;
+}
+
+#footer-top img{
+    min-width: 30px;
+}
+#footer-wrapper #footer-top #footer-top-inner .doormatColumn h3{
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+#footer-wrapper #footer-top #footer-top-inner .doormatColumn .doormatSection,
+#footer-wrapper #footer-top #footer-top-inner .doormatColumn .doormatSection a{
+    color:#000;
+    text-decoration: none;
+}
+
+table.invisible td{
+    vertical-align: middle;
+}

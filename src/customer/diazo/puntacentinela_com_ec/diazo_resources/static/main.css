@@ -1,8 +1,7 @@
 /* Stylesheet for the diazo theme. */
 /* Webfont */
-body,
-body p,
-body a{
+body, body p, body a,
+#global-wrapper{
     font-family: 'Roboto', Arial, sans-serif;
     color:#000;
     font-size: 15px;
@@ -21,6 +20,11 @@ body #global-wrapper #content-wrapper{
 #wrapper-inner #header .navbar{
     margin-top: 10px;
 }
+body #portal-logo{
+  text-align: center;
+  position: relative;
+  z-index: 999;
+}
 
 /* Navigation */
 #navigation{
@@ -30,11 +34,48 @@ body #global-wrapper #content-wrapper{
 #navigation .container{
     height:116px;
 }
+#breadcrumbs-current{
+  color:#28569f;
+  font-weight: 400;
+}
+#portal-breadcrumbs{
+  font-weight: 400;
+}
 
 .language-switcher{
      top:62px;
 }
 
+h1, h2, h3, h4,
+body .documentFirstHeading{
+  font-family: 'Roboto', Arial, sans-serif;
+  color:#009fd3;
+}
+
+body h2, body h2 a{
+ font-family: 'Roboto', Arial, sans-serif;
+  color:#009bd1;
+  font-size:18px;
+  font-weight: 400;
+
+}
+
+h1,
+body .documentFirstHeading{
+  font-size:20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #28569f;
+  padding-bottom:10px;
+  margin-bottom:15px;
+  font-weight: normal;
+  color:#28569f;
+}
+#content-wrapper .documentDescription{
+  font-style: italic;
+  font-size: 18px;
+  color:#009fd3;
+  margin-bottom:20px;
+}
 
 @media screen and (max-width: 768px) {
   .language-switcher {
@@ -134,4 +175,30 @@ body #global-wrapper #content-wrapper{
 
 table.invisible td{
     vertical-align: middle;
+}
+
+/* Carousel */
+#carousel-wrapper{
+  clear: both;
+}
+.carousel-pager{
+  position: absolute;
+  z-index: 998;
+  bottom:20px;
+  left:10%;
+}
+.carousel-pager-item, .carousel-pager-button-prev, .carousel-pager-button-next{
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 1px;
+  color: transparent;
+  margin-left: 5px;
+  box-shadow: 4px 5px #222;
+}
+
+.carousel-pager-item, .carousel-pager-button-prev, .carousel-pager-button-next{
+  background-color:#fff;
+}
+.carousel-pager-item-active{
+  background-color: #f4bb15;
 }

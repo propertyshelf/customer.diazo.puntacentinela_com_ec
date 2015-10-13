@@ -266,6 +266,9 @@ table.invisible td{
 .distanceicon .icon{
   color:#009bd1;
 }
+.development_details .data_row .beds{
+  padding-right: 0;
+}
 
 .development_details h2{
   font-size:21px;
@@ -302,6 +305,9 @@ table.invisible td{
 }
 .development_title{
   border-bottom:0 none transparent;
+}
+.representative__name{
+  font-weight:400;
 }
 @media (max-width: 900px) {
   .development__projectmap{

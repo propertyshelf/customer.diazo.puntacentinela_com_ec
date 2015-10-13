@@ -46,10 +46,10 @@ body #portal-logo{
      top:62px;
 }
 
-h1, h2, h3, h4,
+h1, h2, body h3, body h4,
 body .documentFirstHeading{
   font-family: 'Roboto', Arial, sans-serif;
-  color:#009fd3;
+  color:#009bd1;
 }
 
 body h2, body h2 a{
@@ -73,7 +73,7 @@ body .documentFirstHeading{
 #content-wrapper .documentDescription{
   font-style: italic;
   font-size: 18px;
-  color:#009fd3;
+  color:#009bd1;
   margin-bottom:20px;
 }
 
@@ -202,3 +202,109 @@ table.invisible td{
 .carousel-pager-item-active{
   background-color: #f4bb15;
 }
+/* Listing results */
+/* pagination */
+.listingBar a{
+  background-color: #fff;
+  color:#5a7c85;
+
+}
+
+.listing-summary .tileItem section{
+  padding:15px 10px 0 15px;
+}
+.listing-summary h1,
+.improved .name-of-property a{
+  border-bottom: 0 none transparent;
+  color:#28569f;
+  font-size:18px;
+  text-transform: none;
+}
+.improved .status{
+  border-bottom: 1px dotted #009bd1;
+  color:#009bd1;
+  font-size: 16px;
+  padding-bottom: 8px;
+  margin-bottom:10px;
+}
+
+.improved .status a{
+  color:#009bd1;
+  font-size: 16px;
+
+}
+
+.listing-summary .bedbath,
+.improved .location,
+.improved .locationtype{
+  margin-bottom: 15px
+}
+.improved .location a,
+.improved .location,
+.listing-summary .bedbath .value,
+.listing-summary .locationtype .value,
+.listing-summary .area .value{
+  color: #828282;
+}
+.tileItem{
+  position: relative;
+}
+.listing-summary .price{
+  position:absolute;
+  right:0;
+  bottom: 0;
+}
+.listing-summary .price p {
+    color: #fff;
+    font-size: 24px;
+    background-color: #f4bb15;
+    padding:10px 25px;
+    margin:0;
+}
+/* Developments */
+.development__amenities .amenitiesicon,
+.distanceicon .icon{
+  color:#009bd1;
+}
+
+.development_details h2{
+  font-size:21px;
+  margin-bottom:15px;
+}
+.development_details #group-listings li a:link{
+  background-color: #28569f;
+}
+
+.development_details #group-listings li a:hover,
+.development_details #group-listings li a.current,
+#content .development_details #group-listings li a.current:hover,
+#content .development_details #group-listings li a.current:focus,
+#content .development_details #group-listings li a.current:visited,
+#content .development_details #group-listings li a:hover,
+#content .development_details #group-listings li a:focus,
+#content .development_details #group-listings li a:visited
+{
+  background-color: #009bd1;
+}
+.listing-summary .tileItem .tileHeadline a{
+  font-size: 15px;
+}
+.development_details .listing-summary .price{
+  position: relative;
+  background-color: #009bd1;
+}
+.development_details .listing-summary .tileItem .data_row{
+  background-color: #28569f;
+}
+.development__header{
+  clear:both;
+  float:none;
+}
+.development_title{
+  border-bottom:0 none transparent;
+}
+
+iframe{
+  border: 0 none transparent;
+}
+

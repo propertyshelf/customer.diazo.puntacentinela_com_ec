@@ -21,6 +21,7 @@
     <!-- Custom rules -->
     <drop css:theme="#header-tools" />
     <after css:theme="#colophone" css:content="#portal-footer" />
+    <after css:theme="#navigation" css:content=".development__header" />
   </rules>
 
 </rules>

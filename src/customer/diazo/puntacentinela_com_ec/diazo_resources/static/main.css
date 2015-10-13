@@ -310,6 +310,9 @@ table.invisible td{
 }
 
 /* portlet */
+.portlet .portletHeader{
+  background-color: transparent;
+}
 .portlet .portletHeader a,
 .portlet .portletHeader span{
   font-weight: 400;

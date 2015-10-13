@@ -303,6 +303,20 @@ table.invisible td{
 .development_title{
   border-bottom:0 none transparent;
 }
+@media (max-width: 900px) {
+  .development__projectmap{
+    display:none;
+  }
+}
+
+/* portlet */
+.portlet .portletHeader a,
+.portlet .portletHeader span{
+  font-weight: 400;
+  color:#009bd1 !important;
+  font-size:21px;
+
+}
 
 iframe{
   border: 0 none transparent;

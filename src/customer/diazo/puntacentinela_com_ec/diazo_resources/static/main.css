@@ -414,3 +414,10 @@ iframe{
 #content-wrapper dl.portlet.portletQuickSearch .portletItem{
   padding:12px;
 }
+
+/* full screen carousel */
+@media screen and (max-width: 700px) {
+  .carousel .carousel-banners .carousel-banner img{
+    min-width: 700px;
+  }
+}

@@ -9,6 +9,11 @@ body, body p, body a,
 body #global-wrapper #content-wrapper{
     background-color: #dadada
 }
+input, button, select, textarea{
+  color:#000;
+  font-family: Arial, sans-serif;
+  font-size: 14px
+}
 
 /* Header styles */
 #header{
@@ -319,6 +324,7 @@ table.invisible td{
 .portlet .portletHeader{
   background-color: transparent;
 }
+.portlet .portletHeader,
 .portlet .portletHeader a,
 .portlet .portletHeader span{
   font-weight: 400;
@@ -330,4 +336,81 @@ table.invisible td{
 iframe{
   border: 0 none transparent;
 }
+/* search forms */
+#global-wrapper label{
+  color:#28569f;
+}
+/* Search & send buttons */
+#global-wrapper input.submit-widget
+{
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  color:#fff;
+  background-color: #f4bb15;
+  padding:0 20px;
+  border-color:#000;
+  text-shadow: 2px 2px 0 #5b6178;
+}
+#global-wrapper input.submit-widget:hover{
+  box-shadow: none;
+}
+/* QuickSearch Portlet */
+.portletQuickSearch,
+#global-wrapper .portletQuickSearch label{
+  background-color: #009bd1;
+  color:#fff;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px 0 #5b6178;
+  font-size:16px !important;
+  letter-spacing: 1px;
+}
+.portletQuickSearch  span.label{
+  color: #fff;
+  font-size: 14px;
+}
 
+.portletQuickSearch .form-rows,
+.portletQuickSearch #formfield-form-widgets-ownership_type,
+.portletQuickSearch #formfield-form-widgets-lot_size,
+.portletQuickSearch .portletHeader,
+.portletQuickSearch .option input,
+.portletQuickSearch .option label,
+.portletQuickSearch #formfield-form-widgets-view_type label,
+.portletQuickSearch #form-widgets-beds-5,
+.portletQuickSearch #form-widgets-beds-6,
+.portletQuickSearch #form-widgets-beds-7,
+.portletQuickSearch #form-widgets-beds-8,
+.portletQuickSearch #form-widgets-beds-9,
+.portletQuickSearch #form-widgets-baths-5,
+.portletQuickSearch #form-widgets-baths-6,
+.portletQuickSearch #form-widgets-baths-7,
+.portletQuickSearch #form-widgets-baths-8,
+.portletQuickSearch #form-widgets-baths-9,
+.portletQuickSearch #form-widgets-interior_area-6,
+.portletQuickSearch #form-widgets-interior_area-7,
+.portletQuickSearch #form-widgets-interior_area-8,
+.portletQuickSearch #form-widgets-interior_area-9
+{
+  display: none;
+}
+.portletQuickSearch .form-row-beds-baths,
+.portletQuickSearch .form-row-price,
+.portletQuickSearch .form-row-sizes,
+.portletQuickSearch .form-row-filter-other{
+  display:block;
+}
+.portletQuickSearch #formfield-form-widgets-view_type .option label[for="form-widgets-view_type-10"]{
+  display: inline;
+  font-size: 16px;
+}
+.portletQuickSearch #formfield-form-widgets-view_type .collapse{
+  display: block !important;
+}
+
+.portletQuickSearch .option input[value="ocean_view"],
+.portletQuickSearch label[for=form-widgets-view_type-10]{
+  display: inline;
+}
+#content-wrapper dl.portlet.portletQuickSearch .portletItem{
+  padding:12px;
+}

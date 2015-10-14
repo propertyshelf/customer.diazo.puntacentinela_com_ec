@@ -341,15 +341,17 @@ iframe{
   color:#28569f;
 }
 /* Search & send buttons */
-#global-wrapper input.submit-widget
+#global-wrapper input.submit-widget,
+.pfg-form input[type=submit]
 {
   font-family: 'Dancing Script', cursive;
-  font-size: 28px;
+  font-size: 24px;
   color:#fff;
   background-color: #f4bb15;
-  padding:0 20px;
-  border-color:#000;
+  padding:0 15px;
+  border:1px solid #000;
   text-shadow: 2px 2px 0 #5b6178;
+  border-radius: 6px;
 }
 #global-wrapper input.submit-widget:hover{
   box-shadow: none;
@@ -414,10 +416,43 @@ iframe{
 #content-wrapper dl.portlet.portletQuickSearch .portletItem{
   padding:12px;
 }
-
+span.label{
+  font-size:14px;
+  font-weight: 400;
+}
+.portletQuickSearch #form-widgets-view_type span.label{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+#listing-search form{
+  display: block;
+  background-color: #ececec;
+  padding:20px;
+}
 /* full screen carousel */
 @media screen and (max-width: 700px) {
   .carousel .carousel-banners .carousel-banner img{
     min-width: 700px;
   }
+}
+/* FormGen */
+.pfg-form form{
+  display: block;
+  background-color: #ececec;
+  padding:20px;
+}
+#global-wrapper .pfg-form label{
+  color:#000;
+  font-weight: 400;
+  font-size: 16px;
+}
+.pfg-form  .field input[type="text"][size]{
+  width: 100%;
+  border:1px solid #000;
+  height:2em;
+  background-color: #fff;
+}
+#content textarea{
+  border:1px solid #000;
+  background-color: #fff;
 }

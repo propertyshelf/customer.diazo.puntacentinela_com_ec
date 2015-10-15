@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.puntacentinela_com_ec/static/main.css" type="text/css" />
 
       <!-- Add custom JavaScript. -->
-      <!-- <script src="{$portal_url}/++theme++customer.diazo.puntacentinela_com_ec/static/main.js"></script> -->
+      <script src="{$portal_url}/++theme++customer.diazo.puntacentinela_com_ec/static/main.js"></script>
 
       <!--Include Google Fonts. -->
       <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic|Dancing+Script:700' rel='stylesheet' type='text/css' />

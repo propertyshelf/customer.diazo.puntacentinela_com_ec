@@ -458,4 +458,77 @@ span.label{
   border:1px solid #000;
   background-color: #fff;
 }
+/* frontpage */
+.listing-search-tile form{
+  display:block;
+  overflow: auto;
+  height:auto;
+  position:relative;
+  padding:20px 40px 10px;
+}
+.listing-search-tile #formfield-form-widgets-view_type > label{
+  display: none;
+}
 
+.listing-search-tile #form-widgets-view_type .option{
+  display: none;
+}
+
+.show_me,
+.show_me .label,
+.listing-search-tile #form-widgets-view_type{
+  display: inline !important;
+  color:#000;
+  font-size: 18px;
+}
+.show_me input{
+  height:18px;
+  width:18px;
+  float:right;
+}
+.listing-search-tile #formfield-form-widgets-beds #form-widgets-beds-min,
+.listing-search-tile #formfield-form-widgets-beds #form-widgets-beds-max,
+.listing-search-tile #formfield-form-widgets-price_min #form-widgets-price_min,
+.listing-search-tile #formfield-form-widgets-price_max #form-widgets-price_max{
+  height:35px;
+  width:160px;
+  border-radius: 7px;
+  padding-left: 10px;
+  color:#000;
+  
+}
+.listing-search-tile #formfield-form-widgets-beds #form-widgets-beds-min{
+  margin-right:15px;
+  width:160px;
+}
+.listing-search-tile #formfield-form-widgets-price_min,
+.listing-search-tile #formfield-form-widgets-price_max{
+  width:auto;
+  margin-right:18px;
+
+}
+
+.listing-search-tile #formfield-form-widgets-view_type{
+  position: absolute;
+  top:25px;
+  right:40px;
+}
+.listing-search-tile .formControls{
+  position: absolute;
+  right:40px;
+}
+/* move the form */
+#global-wrapper .row.move_me{
+  position:absolute;
+  top:-300px;
+  width:580px;
+  background-image: url('bg.png');
+  border-radius: 10px;
+  left:50%;
+  margin-left:-290px;
+}
+@media screen and (max-width: 580px){
+  #global-wrapper .row.move_me{
+    display:none;
+  }
+}

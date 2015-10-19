@@ -39,6 +39,13 @@ body #portal-logo{
 #navigation .container{
     height:116px;
 }
+#navigation .navbar-toggle{
+  z-index:1010;
+}
+#navigation .list-open li{
+  z-index: 1011;
+  width:100%;
+}
 #breadcrumbs-current{
   color:#28569f;
   font-weight: 400;
@@ -495,7 +502,6 @@ span.label{
   border-radius: 7px;
   padding-left: 10px;
   color:#000;
-  
 }
 .listing-search-tile #formfield-form-widgets-beds #form-widgets-beds-min{
   margin-right:15px;

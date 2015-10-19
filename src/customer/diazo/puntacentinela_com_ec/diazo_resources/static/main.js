@@ -8,7 +8,6 @@ jQuery(function(jq) {
 
   search_tile=jq('.listing-search-tile');
   if(search_tile.length>0){
-    console.log('tile found ...');
     //set placeholder for price
     p_min=search_tile.find('#formfield-form-widgets-price_min label');
     search_tile.find('#form-widgets-price_min').attr("placeholder", p_min.text().trim());
@@ -23,7 +22,10 @@ jQuery(function(jq) {
     b_label.hide();
     search_tile.find('#form-widgets-beds-min option[value=--MINVALUE--]').text(b_text_min);
     search_tile.find('#form-widgets-beds-max option[value=--MAXVALUE--]').text(b_text_max);
+    //remove un-needed versions
 
+    rm_options = '#form-widgets-beds-max option[value=5], #form-widgets-beds-max option[value=6],#form-widgets-beds-max option[value=7],#form-widgets-beds-max option[value=8],#form-widgets-beds-max option[value=9],#form-widgets-beds-min option[value=5], #form-widgets-beds-min option[value=6], #form-widgets-beds-min option[value=7], #form-widgets-beds-min option[value=8], #form-widgets-beds-min option[value=9]';
+    search_tile.find(rm_options).remove();
     //move row with search form
     search_tile.closest('.row').addClass('move_me');
     search_tile.closest('.cell').removeClass().addClass('center_me');

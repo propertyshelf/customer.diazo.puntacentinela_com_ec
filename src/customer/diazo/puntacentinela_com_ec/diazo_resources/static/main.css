@@ -14,6 +14,16 @@ input, button, select, textarea{
   font-family: Arial, sans-serif;
   font-size: 14px
 }
+/* Language feature */
+.lang{
+  display:none;
+}
+body.site-es .lang-es{
+ display:block;
+}
+body.site-en .lang-en{
+ display:block;
+}
 
 /* Header styles */
 #header{
@@ -511,7 +521,6 @@ span.label{
 .listing-search-tile #formfield-form-widgets-price_max{
   width:auto;
   margin-right:18px;
-
 }
 
 .listing-search-tile #formfield-form-widgets-view_type{

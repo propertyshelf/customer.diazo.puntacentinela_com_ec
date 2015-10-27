@@ -450,8 +450,10 @@ div.warning{
 .portletQuickSearch .form-row-filter-other{
   display:block;
 }
-.portletQuickSearch #formfield-form-widgets-view_type .option label[for="form-widgets-view_type-10"],
-.portletQuickSearch #formfield-form-widgets-view_type .option label[for="form-widgets-view_type-10"] .label{
+.site-en .portletQuickSearch #formfield-form-widgets-view_type .option label[for="form-widgets-view_type-10"],
+.site-en .portletQuickSearch #formfield-form-widgets-view_type .option label[for="form-widgets-view_type-10"] .label,
+.site-es .portletQuickSearch #formfield-form-widgets-view_type .option label[for="form-widgets-view_type-9"],
+.site-es .portletQuickSearch #formfield-form-widgets-view_type .option label[for="form-widgets-view_type-9"] .label{
   display: inline;
   font-size: 16px;
 }

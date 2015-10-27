@@ -373,6 +373,39 @@ iframe{
 #global-wrapper input.submit-widget:hover{
   box-shadow: none;
 }
+/* Error messages */
+dl.error, 
+.portletQuickSearch .error dd{
+    border-color: transparent;
+    background-color: transparent;
+}
+
+div.field.error,
+.portletQuickSearch .error{
+  margin:inherit;
+  padding: 0;
+  background-color: transparent;
+  border-color: transparent;
+  text-shadow: 0 0 0 transparent;
+}
+dl.portalMessage,
+div.attention,
+div.caution,
+div.danger,
+div.error,
+div.hint,
+div.important,
+div.note,
+div.tip,
+div.warning{
+  font-family: Arial, sans-serif;
+  color:red;
+  font-style: normal;
+}
+.portletQuickSearch .portalMessage.error{
+  display: none;
+}
+
 /* QuickSearch Portlet */
 .portletQuickSearch,
 #global-wrapper .portletQuickSearch label{
@@ -414,7 +447,6 @@ iframe{
 }
 .portletQuickSearch .form-row-beds-baths,
 .portletQuickSearch .form-row-price,
-.portletQuickSearch .form-row-sizes,
 .portletQuickSearch .form-row-filter-other{
   display:block;
 }
@@ -532,6 +564,8 @@ span.label{
   position: absolute;
   right:40px;
 }
+
+
 /* move the form */
 #global-wrapper .row.move_me{
   position:absolute;

@@ -24,7 +24,7 @@ jQuery(function(jq) {
     search_tile.find('#form-widgets-beds-max option[value=--MAXVALUE--]').text(b_text_max);
     //remove un-needed versions
 
-    rm_options = '#form-widgets-beds-max option[value=5], #form-widgets-beds-max option[value=6],#form-widgets-beds-max option[value=7],#form-widgets-beds-max option[value=8],#form-widgets-beds-max option[value=9],#form-widgets-beds-min option[value=5], #form-widgets-beds-min option[value=6], #form-widgets-beds-min option[value=7], #form-widgets-beds-min option[value=8], #form-widgets-beds-min option[value=9]';
+    rm_options = '#form-widgets-beds-max option[value=4], #form-widgets-beds-max option[value=5], #form-widgets-beds-max option[value=6],#form-widgets-beds-max option[value=7],#form-widgets-beds-max option[value=8],#form-widgets-beds-max option[value=9],#form-widgets-beds-min option[value=4],#form-widgets-beds-min option[value=5], #form-widgets-beds-min option[value=6], #form-widgets-beds-min option[value=7], #form-widgets-beds-min option[value=8], #form-widgets-beds-min option[value=9]';
     search_tile.find(rm_options).remove();
     //move row with search form
     search_tile.closest('.row').addClass('move_me');

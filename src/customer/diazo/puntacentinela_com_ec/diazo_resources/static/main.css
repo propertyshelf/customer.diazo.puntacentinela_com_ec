@@ -581,3 +581,19 @@ span.label{
     display:none;
   }
 }
+/* 2 column footer  */
+.copyright{
+  display:inline-block;
+  width:60%;
+}
+.partner{
+  display:inline-block;
+  width:38%;
+}
+@media screen and (max-width: 800px){
+  .copyright, .partner{
+    display:block;
+    width:100%;
+    text-align: center;
+  }
+}
